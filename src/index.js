@@ -6,6 +6,7 @@ addEventListener("fetch", (event) => {
 const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
+  // production
   "docker.hjlin.us.kg": dockerHub,
   "quay.hjlin.us.kg": "https://quay.io",
   "gcr.hjlin.us.kg": "https://gcr.io",
@@ -14,6 +15,8 @@ const routes = {
   "ghcr.hjlin.us.kg": "https://ghcr.io",
   "cloudsmith.hjlin.us.kg": "https://docker.cloudsmith.io",
   "ecr.hjlin.us.kg": "https://public.ecr.aws",
+
+  // staging
   "docker-staging.hjlin.us.kg": dockerHub,
 };
 
